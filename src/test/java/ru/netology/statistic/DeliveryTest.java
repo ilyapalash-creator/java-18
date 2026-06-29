@@ -27,7 +27,7 @@ public class DeliveryTest {
 
         $("[data-test-id='city'] input").setValue("Москва");
         $("[data-test-id='date'] input").doubleClick().sendKeys(Keys.DELETE);
-        $("[data-test-id='date'] input").setValue(deliveryDate);
+        $("[data-test-id='date'] input").setValue("31.07.2026");
         $("[data-test-id='name'] input").setValue("Иванов Иван");
         $("[data-test-id='phone'] input").setValue("+79001234567");
         $("[data-test-id='agreement']").click();
